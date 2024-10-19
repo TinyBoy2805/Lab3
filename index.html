@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab3</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  
+  <header class="header">
+      <div id="input-container">
+        <i class='bx bx-search'></i>
+        <input type="text" id="search" placeholder="Search...">
+      </div>
+      <nav id="nav-header">
+          <a href="#"><i class='bx bxs-bell'></i></a>
+          <a href="#"><i class='bx bxs-user-circle'></i></a>
+      </nav>
+  </header>
+
+  <div class="sidebar">
+      <div id="logo">
+          <p onclick="reloadPage()"><i class='bx bx-book-reader' style="color: var(--c2);"></i> BrainStack</p>
+      </div>
+
+      <ul>
+        <a href="#" class="side-tab active"><i class='bx bxs-home-alt-2'></i> Home</a>
+        <a href="#" class="side-tab"><i class='bx bxs-book-alt' ></i> Documents</a>
+        <a href="#" class="side-tab"> <i class='bx bxs-folder'></i> Catagories</a>
+        <a href="#" class="side-tab"><i class='bx bxs-info-circle' ></i> About</a>
+      </ul>
+  </div>
+
+  <main id="main"></main>
+
+
+</body>
+<script src="./JS/main.js" defer></script>
+</html>
